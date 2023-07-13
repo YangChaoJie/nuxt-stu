@@ -5,11 +5,12 @@ useHead({
   meta: [{
     id: 'theme-color',
     name: 'theme-color',
-    content: () => color.value === 'dark' ? '#222222' : '#ffffff',
+    content: () => color.value === 'dark' ? '#317cfb' : '#ffffff',
   }],
 })
 
 function toggleDark() {
+  console.log('color-----', color);
   color.preference = color.value === 'dark' ? 'light' : 'dark'
 }
 </script>

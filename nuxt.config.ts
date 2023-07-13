@@ -15,6 +15,10 @@ export default defineNuxtConfig({
     renderJsonPayloads: true,
     typedPages: true
   },
+  colorMode: {
+    classPrefix: '',
+    classSuffix: '',
+  },
   css: [
     '@unocss/reset/tailwind.css'
   ],
